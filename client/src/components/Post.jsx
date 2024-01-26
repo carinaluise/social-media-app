@@ -35,12 +35,12 @@ const Post = ({ post }) => {
       {post && (
         <div key={post._id}>
           <img
-            className="w-1/2 mx-auto object-contain"
+            className="mx-auto object-contain"
             src={createObjectURL(post.image)}
             alt="Post"
           />
           <button
-            className="absolute top-0 right-0 m-2 p-2 rounded-full bg-gray-900 text-white"
+            className="absolute top-0 right-0 m-2 p-2 rounded-full bg-black hover:bg-gray-700 text-white"
             onClick={handleDelete}
           >
             X
@@ -56,17 +56,17 @@ const Post = ({ post }) => {
             ) : (
               <h2 className="text-xl font-semibold">{post.description}</h2>
             )}
-            <div className="flex justify-center mt-4">
+            <div className="flex mt-4">
               {isEditing ? (
                 <button
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
+                  className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-2"
                   onClick={handleEdit}
                 >
                   Save Changes
                 </button>
               ) : (
                 <button
-                  className="bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
+                  className="bg-black hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-2"
                   onClick={() => setIsEditing(true)}
                 >
                   Edit Description

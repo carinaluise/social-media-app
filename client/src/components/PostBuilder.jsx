@@ -52,7 +52,7 @@ const PostBuilder = () => {
   return (
     <div className="relative my-4">
       <button
-        className="bg-black text-white px-4 py-2 rounded"
+        className="bg-black hover:bg-gray-700 text-white px-4 py-2 rounded"
         onClick={handleToggleExpansion}
       >
         {isExpanded ? "x" : "Create Post"}
@@ -88,7 +88,7 @@ const PostBuilder = () => {
             </div>
             <button
               type="submit"
-              className={`bg-black text-white px-4 py-2 rounded mt-2 mr-2 ${
+              className={`bg-black hover:bg-gray-700 text-white px-4 py-2 rounded mt-2 mr-2 ${
                 isPosting || !description || !image
                   ? "opacity-50 cursor-not-allowed"
                   : ""

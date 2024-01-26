@@ -6,9 +6,11 @@ const PostFeed = () => {
   const { posts } = usePostData();
 
   return (
-    <div className="bg-gray-100 min-h-screen absolute right-0 w-2/3">
+    <div className="bg-gray-100 min-h-screen md:absolute md:right-0 md:w-2/3">
       <header className="sticky p-4 top-0 bg-black z-50 flex items-center justify-center">
-        <h2 className="text-xl text-white font-semibold ">Global Feed</h2>
+        <h2 className="text-4xl font-thin text-white font-semibold ">
+          Global Feed
+        </h2>
       </header>
       <div className="px-8">
         {posts.map((post) => (

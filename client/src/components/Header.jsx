@@ -12,10 +12,10 @@ const Header = () => {
   };
 
   return (
-    <header className="w-1/3 bg-pink max-h-screen fixed p-4">
+    <header className="md:w-1/3 bg-pink max-h-screen md:fixed p-4">
       <h1 className="text-4xl">Dashboard</h1>
       {userData && (
-        <div className="flex items-center">
+        <div className="md:flex items-center">
           <svg
             className="w-6 h-6 text-gray-800"
             aria-hidden="true"
@@ -29,7 +29,7 @@ const Header = () => {
               d="M7 17v1c0 .6.4 1 1 1h8c.6 0 1-.4 1-1v-1a3 3 0 0 0-3-3h-4a3 3 0 0 0-3 3Zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
             />
           </svg>
-          <p className="text-gray-800 ml-2">{userData.username}</p>
+          <p className="text-gray-800">{userData.username}</p>
         </div>
       )}
       <button onClick={handleLogout}>Logout</button>

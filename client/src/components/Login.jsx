@@ -30,20 +30,20 @@ const Login = () => {
 
   return (
     <div className="flex flex-column flex-wrap w-1/4 h-2/3  bg-gray-900 bg-cover bg-no-repeat rounded-lg">
-      <div className="rounded-xl bg-gray-800 bg-opacity-50 px-16 py-10 shadow-lg backdrop-blur-md max-sm:px-8">
+      <div className="rounded-xl bg-black px-16 py-10 shadow-lg backdrop-blur-md max-sm:px-8">
         <div className="text-white">
           {showRegister ? (
             <Register /> // Display Register component if showRegister is true
           ) : (
             <>
               <div className="mb-8 flex flex-col items-center">
-                <h1 className="mb-2 text-2xl">Social Media App</h1>
+                <h1 className="mb-2 text-2xl text-center">Social Media App</h1>
                 <span className="text-gray-300">Enter Login Details</span>
               </div>
               <form>
                 <div className="mb-4 text-lg">
                   <input
-                    className="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md"
+                    className="rounded-3xl border-none bg-yellow-100 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md"
                     type="text"
                     placeholder="Username"
                     value={username}
@@ -52,7 +52,7 @@ const Login = () => {
                 </div>
                 <div className="mb-4 text-lg">
                   <input
-                    className="rounded-3xl border-none bg-yellow-400 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md"
+                    className="rounded-3xl border-none bg-yellow-100 bg-opacity-50 px-6 py-2 text-center text-inherit placeholder-slate-200 shadow-lg outline-none backdrop-blur-md"
                     type="password"
                     placeholder="Password"
                     value={password}
@@ -65,7 +65,7 @@ const Login = () => {
                   <button
                     onClick={handleLogin}
                     type="submit"
-                    className="rounded-3xl bg-yellow-400 bg-opacity-50 px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-yellow-600"
+                    className="rounded-3xl bg-yellow-100 bg-opacity-50 px-10 py-2 text-white shadow-xl backdrop-blur-md transition-colors duration-300 hover:bg-yellow-600"
                   >
                     Login
                   </button>

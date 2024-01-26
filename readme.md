@@ -1,6 +1,7 @@
 # MERN Stack Project with Local MongoDB
 
 ![Screenshot](example.png)
+![Screenshot](example2.png)
 
 ### Description
 
@@ -89,7 +90,7 @@ To run this project locally, follow these steps:
 - Build a Profile page where users can see only their posts.
 - Update Feed so that users can only edit their own posts.
 - Use react context for state management
-- Optimize for A11y and performance
+- Optimize for A11y and responsive design & performance
 - Implement a docker/ docker compose file
 - Connect to a MongoDB Atlas Cluster or AWS Cluster
 
