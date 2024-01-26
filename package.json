@@ -1,0 +1,13 @@
+{
+  "name": "social-media-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd backend && yarn start\" \"cd client && yarn run dev\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
