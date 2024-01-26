@@ -6,6 +6,10 @@
 
 This project is a full-stack application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It utilizes a local MongoDB database for storing data, and various technologies such as Yarn, Vite, React, Mongoose, Express, and Tailwind CSS.
 
+### Project Technologies
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
+
 ### Features
 
 - Allows users to perform CRUD (Create, Read, Update, Delete) operations on posts.
@@ -38,16 +42,18 @@ To run this project locally, follow these steps:
 2.  In a new terminal window clone the repository to your local machine:
 
     ```
-    git clone <repository-url>
+    git clone git@github.com:carinaluise/social-media-app.git
     ```
+
+    Note: if not using SSH keys use HTTP version (avail. github)
 
 3.  Navigate to the project directory:
 
     ```
-    cd <project-directory>
+    cd social-media-app
     ```
 
-4.  Install dependencies in root, client and backend using Yarn:
+4.  Install dependencies in root, client and backend using Yarn (or other package manager):
 
     ```
     yarn
@@ -84,6 +90,8 @@ To run this project locally, follow these steps:
 - Update Feed so that users can only edit their own posts.
 - Use react context for state management
 - Optimize for A11y and performance
+- Implement a docker/ docker compose file
+- Connect to a MongoDB Atlas Cluster or AWS Cluster
 
 ### Contributing
 
