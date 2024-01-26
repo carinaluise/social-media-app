@@ -87,9 +87,11 @@ To run this project locally, follow these steps:
 - Migrate from using local storage to a more secure way of authenticating (HTTP cookies/ OAuth etc.)
 - Enforce high quality passwords.
 - Add loader animation
+- Refactor frontend/ clean up & break down into smaller components (example: button)
 - Build a Profile page where users can see only their posts.
 - Update Feed so that users can only edit their own posts.
 - Use react context for state management
+- Animations on user interaction
 - Optimize for A11y and responsive design & performance
 - Implement a docker/ docker compose file
 - Connect to a MongoDB Atlas Cluster or AWS Cluster
