@@ -1,7 +1,6 @@
 # MERN Stack Project with Local MongoDB
 
 ![Screenshot](example.png)
-![Screenshot](example2.png)
 
 ### Description
 
